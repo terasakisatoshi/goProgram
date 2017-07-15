@@ -1,4 +1,8 @@
 // Lissajous generates GIF animations of random Lissajous figures.
+/* how to use
+$ go build create_lissajous.go
+$ ./create_lissajous >out.gif
+*/
 package main
 
 import (
